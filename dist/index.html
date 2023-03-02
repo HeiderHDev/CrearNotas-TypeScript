@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TypeScript LocalStorage</title>
+  <script type="module" crossorigin src="/assets/index-36886680.js"></script>
+  <link rel="stylesheet" href="/assets/index-88d77b6c.css">
+</head>
+
+<body class="bg-zinc-900 text-white">
+
+  <div class="flex justify-center items-center
+              h-screen gap-x-2">
+
+    <form id="task-form" class="bg-zinc-700 p-10 rounded-md
+                                max-w-md">
+
+      <label for="title" class="block">Title</label>
+      <input type="text" name="title" placeholder="Write a title" class="bg-gray-800 px-1 py-2 w-full rounded-md mb-2">
+
+      <label for="description" class="block">Description</label>
+      <textarea name="description" rows="3" placeholder="Write a description"
+        class="bg-gray-800 px-1 py-2 w-full rounded-md mb-2"></textarea>
+
+      <button class="bg-blue-600 px-3 py-1 rounded-md hover:bg-blue-500">
+        Save
+      </button>
+    </form>
+
+    <div id="task-list" class="max-w-md w-full h-3/5 p-10 overflow-y-scroll">
+
+    </div>
+
+
+  </div>
+
+  
+</body>
+
+</html>
